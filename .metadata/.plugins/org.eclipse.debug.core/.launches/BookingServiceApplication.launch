@@ -11,6 +11,7 @@
         <mapEntry key="DB_PASSWORD" value="shaik@1."/>
         <mapEntry key="DB_URL" value="jdbc:mysql://localhost:3306/Booking?createDatabaseIfNotExist=true"/>
         <mapEntry key="DB_USERNAME" value="root"/>
+        <mapEntry key="secretKey" value="sk_test_51QXHNsEYmWwMvl1XH9aNxI8gWiKhweXFELTzbNWno5kMg8Dar0gbEr9r7ealwTuNRXHXZ1J0cI8e46bjn4eHn7LT00lJXnbBDu"/>
     </mapAttribute>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_ATTR_USE_ARGFILE" value="false"/>
     <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
