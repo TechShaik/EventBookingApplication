@@ -1,0 +1,5 @@
+package com.files.PayementService.dto;
+
+public class StripeRespone {
+
+}

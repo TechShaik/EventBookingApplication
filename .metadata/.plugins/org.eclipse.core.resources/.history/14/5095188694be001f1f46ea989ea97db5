@@ -1,0 +1,17 @@
+package com.files.PayementService.Services;
+
+import org.springframework.stereotype.Service;
+
+import com.files.PayementService.dto.ProductRequest;
+import com.files.PayementService.dto.StripeRespone;
+import com.stripe.Stripe;
+
+@Service
+public class StripeService {
+	
+	public StripeRespone checkoutProduct(ProductRequest productRequest) {
+		Stripe.apiKey="pk_test_51QXHNsEYmWwMvl1Xz3VhLngisbVZrwIT2TxMJG08Uq707cZqwLEIBD3tTw9gO2qOUTkUTfo4I0vWCIGZN41jFLq700LFog3Z5O";
+
+	}
+
+}

@@ -1,0 +1,3 @@
+spring.application.name=Payement-Service
+spring.profiles.active=payement
+stripe.secretKey=pk_test_51QXHNsEYmWwMvl1Xz3VhLngisbVZrwIT2TxMJG08Uq707cZqwLEIBD3tTw9gO2qOUTkUTfo4I0vWCIGZN41jFLq700LFog3Z5O

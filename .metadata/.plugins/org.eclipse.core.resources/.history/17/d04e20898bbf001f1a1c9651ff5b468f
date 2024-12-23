@@ -1,0 +1,5 @@
+package com.files.BookingService.dto;
+
+public class BookingResponse {
+
+}

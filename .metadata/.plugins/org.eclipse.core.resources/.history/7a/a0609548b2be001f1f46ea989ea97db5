@@ -1,0 +1,5 @@
+package com.files.PayementService.clients;
+
+public class userClient {
+
+}

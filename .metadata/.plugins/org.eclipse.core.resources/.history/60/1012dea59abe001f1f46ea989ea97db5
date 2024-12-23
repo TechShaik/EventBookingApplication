@@ -1,0 +1,27 @@
+package com.files.PayementService.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.files.PayementService.Services.StripeService;
+import com.files.PayementService.dto.ProductRequest;
+import com.files.PayementService.dto.StripeRespone;
+
+@RestController
+@RequestMapping("payement/product/v1")
+public class Controller {
+	@Autowired
+	private StripeService stripeService; 
+	
+	public ResponseEntity<StripeRespone> checkProducts(@RequestBody ProductRequest productRequest){
+		StripeRespone checkoutProduct = stripeService.checkoutProduct(productRequest);
+		return ResponseEntity
+				.status(HttpStatus.OK)
+				.body(checkoutProduct);
+	}
+
+}

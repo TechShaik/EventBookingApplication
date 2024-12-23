@@ -1,0 +1,14 @@
+package com.files.PayementService.clients;
+
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestHeader;
+
+import com.files.PayementService.external.Booking;
+
+public interface BookingClient {
+
+	@GetMapping("/showbookings")
+	public List<Booking> showBookings(@RequestHeader("Authorization") String authHeader);
+}

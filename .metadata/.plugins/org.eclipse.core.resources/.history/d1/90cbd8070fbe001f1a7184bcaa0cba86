@@ -1,0 +1,5 @@
+package com.files.Payement.Service.dto;
+
+public class ProductRequest {
+
+}
